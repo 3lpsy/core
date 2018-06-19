@@ -9,6 +9,7 @@ before_install:
 - pip install poetry
 
 install:
+- poetry install -E sass -E s3 -E scheduler -E entry
 - poetry develop
 
 script: travis_retry poetry run py.test

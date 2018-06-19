@@ -31,7 +31,6 @@ pytest = "^3.5"
 
 [tool.poetry.extras]
 sass = ['libsass']
-masoniteextras = [
-  "masonite-entry>=0.0.0,<=0.9.99",
-  "masonite-scheduler>=1.0.0,<=1.0.99"
-]
+s3 = ['boto3']
+scheduler = ['masonite-scheduler']
+entry = ['masonite-entry']
