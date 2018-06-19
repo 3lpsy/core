@@ -531,9 +531,9 @@ python-versions = "*"
 platform = "*"
 
 [metadata]
-python-versions = "~3.5"
+python-versions = ">=3.4,<3.7"
 platform = "*"
-content-hash = "c4f842194e6f860a029c0db1f5b9bebaf49cd98f42d488cfde18212229a2ff2f"
+content-hash = "45149f259574efa926d4ab7d1c3e682f11aef1f27f11f087b8a6e4ed887cf1f2"
 
 [extras]
 sass = []
